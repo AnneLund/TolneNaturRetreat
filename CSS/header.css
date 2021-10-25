@@ -152,6 +152,7 @@ nav .navbar {
   position: relative;
   width: 70px;
   top: 0;
+  left: 30px;
   padding: 5px;
   margin-right: 40px;
 }
@@ -196,7 +197,8 @@ nav .navbar .links li .arrow {
 nav .navbar .links li .sub-menu {
   position: absolute;
   top: 70px;
-  left: 15px;
+  width: max-content;
+  left: 0;
   line-height: 40px;
   background-color: rgb(43, 80, 0);
   border-radius: 0 0 4px 4px;
@@ -252,8 +254,15 @@ nav .navbar .links li:hover .pi-sub-menu {
     z-index: 1000;
   }
 
-  nav .navbar .nav-links a {
-    background-color: red;
+  .title-one {
+    position: relative;
+    top: 70px;
+    padding: 40px;
+    font-size: 3vw;
+    text-shadow: none;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
   }
   .navbar .nav-links .sidebar-logo {
     display: flex;
@@ -265,11 +274,12 @@ nav .navbar .links li:hover .pi-sub-menu {
   .navbar .bx-menu {
     font-size: 40px;
     color: #fff;
+    padding: 20px;
   }
 
   .bx-x:before {
     position: absolute;
-    left: 220px;
+    left: 300px;
     top: 25px;
   }
 

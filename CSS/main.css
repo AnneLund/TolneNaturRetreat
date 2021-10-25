@@ -271,6 +271,14 @@ li {
     padding: 10px;
   }
 
+  figcaption {
+    padding: 0;
+  }
+
+  .skovfugle {
+    padding: 0;
+  }
+
   .list {
     list-style-position: inside;
   }
