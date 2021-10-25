@@ -114,7 +114,7 @@ nav .navbar .links li:hover .pi-sub-menu {
 
 /* MEDIAQUERIES */
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   nav .navbar {
     padding: 0;
   }
