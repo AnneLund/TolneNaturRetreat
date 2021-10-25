@@ -250,6 +250,7 @@ li {
   color: black;
   list-style: decimal;
   font-size: 17px;
+  list-style-position: inside;
 }
 
 /* LÆSMERE-OLE */
