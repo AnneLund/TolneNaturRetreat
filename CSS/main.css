@@ -125,6 +125,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+.title-one {
+  position: relative;
+  top: 70px;
+  padding: 40px;
+}
+
 .title {
   position: relative;
   top: 70px;
