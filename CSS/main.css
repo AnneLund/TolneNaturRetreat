@@ -15,14 +15,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-  font-size: 6vw;
-  text-shadow: 4px 4px rgb(1, 68, 1);
-  text-align: center;
-  color: white;
-  font-weight: lighter;
-}
-
 .T-1 {
   transition-property: inherit;
   transition-duration: 0.5s;
@@ -111,10 +103,7 @@ h1 {
 .under-overskrift {
   transition-property: all;
   transition-duration: 3.9s;
-}
-
-h2 {
-  font-size: 3vw;
+  font-size: 2vw;
   text-shadow: 2px 2px rgb(1, 68, 1);
   text-decoration: overline 2px;
   text-decoration-color: rgb(1, 68, 1);
@@ -129,12 +118,22 @@ h2 {
   position: relative;
   top: 70px;
   padding: 40px;
+  font-size: 2vw;
+  text-shadow: 4px 4px rgb(1, 68, 1);
+  text-align: center;
+  color: white;
+  font-weight: lighter;
 }
 
 .title {
   position: relative;
   top: 70px;
   padding: 40px;
+  font-size: 3vw;
+  text-shadow: 4px 4px rgb(1, 68, 1);
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 .col-2 {
