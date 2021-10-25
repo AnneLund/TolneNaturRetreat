@@ -339,14 +339,6 @@ li {
   padding: 20px 0;
 }
 
-.cvr {
-  text-align: center;
-  border-top: ridge;
-  border-top-color: seagreen;
-  border-bottom: ridge;
-  border-bottom-color: seagreen;
-}
-
 .list {
   padding: 20px 0;
 }
@@ -386,4 +378,24 @@ li {
   color: black;
   list-style: decimal;
   font-size: 17px;
+}
+
+/* LÆSMERE-OLE */
+
+.cvr {
+  text-align: center;
+  border-top: ridge;
+  border-top-color: seagreen;
+  border-bottom: ridge;
+  border-bottom-color: seagreen;
+}
+
+/* @media screen and (max-width: 1200px) {
+  
+} */
+
+@media screen and (max-width: 800px) {
+  .text {
+    padding: 10px;
+  }
 }
