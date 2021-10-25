@@ -14,128 +14,6 @@ body {
   max-width: 1630px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.T-1 {
-  transition-property: inherit;
-  transition-duration: 0.5s;
-}
-
-.O {
-  transition-property: inherit;
-  transition-duration: 0.7s;
-}
-
-.L {
-  transition-property: inherit;
-  transition-duration: 0.9s;
-}
-
-.N-1 {
-  transition-property: inherit;
-  transition-duration: 1.1s;
-}
-
-.E-1 {
-  transition-property: inherit;
-  transition-duration: 1.3s;
-}
-
-.N-2 {
-  transition-property: inherit;
-  transition-duration: 1.5s;
-}
-
-.A-1 {
-  transition-property: inherit;
-  transition-duration: 1.7s;
-}
-
-.T-2 {
-  transition-property: inherit;
-  transition-duration: 1.9s;
-}
-
-.U {
-  transition-property: inherit;
-  transition-duration: 2.1s;
-}
-
-.R-1 {
-  transition-property: inherit;
-  transition-duration: 2.3s;
-}
-
-.R-2 {
-  transition-property: inherit;
-  transition-duration: 2.5s;
-}
-
-.E-2 {
-  transition-property: inherit;
-  transition-duration: 2.7s;
-}
-
-.T-3 {
-  transition-property: inherit;
-  transition-duration: 2.9s;
-}
-
-.R-3 {
-  transition-property: inherit;
-  transition-duration: 3.1s;
-}
-
-.E-3 {
-  transition-property: inherit;
-  transition-duration: 3.3s;
-}
-
-.A-2 {
-  transition-property: inherit;
-  transition-duration: 3.5s;
-}
-
-.T-4 {
-  transition-property: all;
-  transition-duration: 3.7s;
-}
-
-.under-overskrift {
-  transition-property: all;
-  transition-duration: 3.9s;
-  font-size: 3vw;
-  text-shadow: 2px 2px rgb(1, 68, 1);
-  text-decoration: overline 2px;
-  text-decoration-color: rgb(1, 68, 1);
-  text-align: center;
-  color: white;
-  font-weight: lighter;
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
-
-.title-one {
-  position: relative;
-  top: 70px;
-  padding: 40px;
-  font-size: 3vw;
-  text-shadow: 4px 4px rgb(1, 68, 1);
-  text-align: center;
-  color: white;
-  font-weight: lighter;
-}
-
-.title {
-  position: relative;
-  top: 70px;
-  padding: 40px;
-  font-size: 3vw;
-  text-shadow: 4px 4px rgb(1, 68, 1);
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-
 .col-2 {
   display: grid;
   grid-template-columns: auto auto;
@@ -194,7 +72,7 @@ li {
   }
   .skovfugle img {
     padding: 20px;
-    width: 100%;
+    width: 60%;
   }
 
   .col-2 figcaption h3 {
@@ -324,7 +202,7 @@ li {
 }
 
 .text {
-  background-color: rgb(171, 211, 155);
+  background-color: rgba(192, 197, 189, 0.904);
   margin-top: 60px;
   padding: 50px 150px;
 }
@@ -346,6 +224,8 @@ li {
 .list li {
   color: black;
   list-style-type: square;
+  padding: 5px;
+  list-style-position: inside;
 }
 
 .bold {
@@ -354,6 +234,7 @@ li {
 
 .list-program {
   padding: 20px 0;
+  list-style-position: inside;
 }
 
 .list-program li {
@@ -397,5 +278,13 @@ li {
 @media screen and (max-width: 800px) {
   .text {
     padding: 10px;
+  }
+
+  .list {
+    list-style-position: inside;
+  }
+
+  .list li {
+    text-align: justify;
   }
 }
