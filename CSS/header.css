@@ -234,7 +234,7 @@ nav .navbar .links li:hover .pi-sub-menu {
 
 /* MEDIAQUERIES */
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   nav {
     position: fixed;
     top: 0;
