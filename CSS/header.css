@@ -136,7 +136,7 @@ header {
   width: 1500px;
   height: 400px;
   position: absolute;
-  animation-name: example;
+  animation-name: fog;
   animation-duration: 20s;
   /* animation-delay: -2s; */
   animation-iteration-count: infinite;
@@ -147,7 +147,7 @@ header {
   height: 330px;
 }
 
-@keyframes example {
+@keyframes fog {
   0% {
     left: -70%;
     top: 0px;
