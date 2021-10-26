@@ -30,7 +30,8 @@ body {
 }
 
 .figure-content {
-  padding: 40px;
+  padding: 50px;
+  background-color: rgba(28, 42, 12, 0.445);
 }
 
 .figure-content figure {
@@ -44,7 +45,7 @@ body {
 
 .h2-grid {
   font-size: 20px;
-  color: #011d04;
+  color: black;
 }
 
 .figure-content figcaption {
