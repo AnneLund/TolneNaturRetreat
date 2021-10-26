@@ -13,7 +13,163 @@ body {
   max-width: 1630px;
 }
 
-.col-2 {
+/* HEADER GRID */
+
+.grid {
+  max-width: 1630px;
+  max-height: min-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, minmax(250px, 1fr));
+  grid-template-areas:
+    "b1 b1 b2 b3 b3"
+    "b1 b1 b4 b5 b5"
+    "b6 b7 b7 b5 b5"
+    "b6 b8 b9 b9 b10";
+  gap: 20px;
+}
+
+.figure-content {
+  padding: 40px;
+}
+
+.figure-content figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 10px;
+  overflow: hidden;
+}
+
+.h2-grid {
+  font-size: 20px;
+  color: #011d04;
+}
+
+.figure-content figcaption {
+  background-color: #eaeaea9b;
+  border-style: hidden;
+  border-color: #47464694;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#b1 {
+  grid-area: b1;
+  background-image: url(../Images/camping-691424_1920-1024x683.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b2 {
+  grid-area: b2;
+  background-image: url(../Images/fireplace-1598243_1920-1-1024x683.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#b3 {
+  grid-area: b3;
+  background-image: url(../Images/outdoor-3681924_1920-1024x683.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b4 {
+  grid-area: b4;
+  background-image: url(../Images/skovfugle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b5 {
+  grid-area: b5;
+  background-image: url(../Images/teepee-2647263_1920-1024x610.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#b6 {
+  grid-area: b6;
+  background-image: url(../Images/travel-2604981_1920-1024x683.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b7 {
+  grid-area: b7;
+  background-image: url(../Images/tolneskov1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b8 {
+  grid-area: b8;
+  background-image: url(../Images/Korn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#b9 {
+  grid-area: b9;
+  background-image: url(../Images/Bær-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b10 {
+  grid-area: b10;
+  background-image: url(../Images/blomst-IMG_8639.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, minmax(200px, 1fr));
+    grid-template-areas:
+      "b1 b2"
+      "b3 b4"
+      "b5 b5"
+      "b6 b7"
+      "b8 b9"
+      "b10 b10";
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, minmax(150px, 1fr));
+    grid-template-areas:
+      "b1"
+      "b2"
+      "b4"
+      "b5"
+      "b6"
+      "b7"
+      "b8"
+      "b9"
+      "b3";
+  }
+
+  #b10 {
+    display: none;
+  }
+
+  .figure-content {
+    padding: 20px;
+  }
+}
+
+/* .col-2 {
   display: grid;
   grid-template-columns: auto auto;
   position: relative;
@@ -48,7 +204,7 @@ li {
   font-size: 17px;
   color: black;
   padding: 5px;
-}
+} */
 
 /* MEDIAQUERIES */
 

@@ -138,7 +138,6 @@ header {
   position: absolute;
   animation-name: fog;
   animation-duration: 20s;
-  /* animation-delay: -2s; */
   animation-iteration-count: infinite;
 }
 
