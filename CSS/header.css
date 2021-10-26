@@ -150,6 +150,20 @@ header {
   height: 390px;
 }
 
+.skyer2 {
+  width: 1500px;
+  height: 150px;
+  position: absolute;
+  animation-name: fog;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.skyer2 img {
+  width: 1500px;
+  height: 260px;
+}
+
 @keyframes fog {
   0% {
     left: -70%;
