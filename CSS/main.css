@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500&display=swap");
+
 body {
   background-image: url(../Images/Baggrundsbilledeskov.jpeg);
   background-size: cover;
@@ -11,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 1630px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 /* HEADER GRID */
@@ -106,6 +109,7 @@ body {
   background-image: url(../Images/tolneskov1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #b8 {
@@ -170,85 +174,21 @@ body {
   }
 }
 
-/* .col-2 {
-  display: grid;
-  grid-template-columns: auto auto;
-  position: relative;
-  padding: 60px;
-}
-
-.col-2 figcaption p {
-  font-size: 17px;
-  color: black;
-  font-weight: 10;
-}
-
-.col-2 figcaption h3 {
-  color: black;
-  font-size: 20px;
-  padding-top: 15px;
-}
-
-.skovfugle img {
-  padding: 30px;
-  width: 100%;
-}
-
-ul {
-  list-style-type: none;
-  padding: 10px 0;
-  list-style-position: inside;
-  text-align: left;
-}
-
-li {
-  font-size: 17px;
-  color: black;
-  padding: 5px;
-} */
-
-/* MEDIAQUERIES */
-
-@media screen and (max-width: 1300px) {
-  .col-2 {
-    display: grid;
-    grid-template-columns: auto;
-    padding: 10px;
-    margin: 40px;
-    text-align: center;
-  }
-  .skovfugle img {
-    padding: 0 20px;
-    width: 50vw;
-  }
-
-  .col-2 figcaption h3 {
-    padding: 10px 0;
-    font-size: 17px;
-  }
-
-  figcaption {
-    padding: 30px;
-  }
-}
-
 /* PERSONALE */
 .cards {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   padding: 30px;
-  margin-top: 60px;
 }
 
 .card1,
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: 60px;
+  margin: 0 60px;
   text-align: center;
   font-family: arial;
-  gap: 40px;
   background-color: #eaeaea;
   box-shadow: #000 10px 10px 10px;
 }
