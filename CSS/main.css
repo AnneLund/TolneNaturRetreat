@@ -309,7 +309,7 @@ body {
 }
 
 .text p {
-  padding: 20px 0;
+  padding: 10px 0;
   font-size: 20px;
 }
 
@@ -320,6 +320,15 @@ body {
 
 .text p a:hover {
   color: black;
+}
+
+h4 {
+  padding-top: 20px;
+}
+
+h5 {
+  font-size: 25px;
+  padding: 40px 0;
 }
 
 .bold {
