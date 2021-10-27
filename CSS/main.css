@@ -27,6 +27,7 @@ body {
     font-family: "Zen Kaku Gothic Antique", sans-serif;
   }
 }
+
 /* HEADER GRID */
 
 .grid {
@@ -364,6 +365,7 @@ body {
 }
 
 .obs {
+  padding: 20px;
   font-size: 25px;
   text-align: center;
   border-style: ridge;
@@ -468,4 +470,14 @@ body {
   .text {
     padding: 20px;
   }
+}
+
+/* PRISER */
+
+.kr {
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
 }
