@@ -238,6 +238,8 @@ body {
   text-decoration: none;
 }
 
+/* PERSONALE MEDIAQUERIES */
+
 @media screen and (max-width: 1200px) {
   .card1,
   .card2 {
@@ -289,6 +291,8 @@ body {
   }
 }
 
+/* TEXT-SECTIONS */
+
 .text {
   background-color: rgba(192, 197, 189, 0.904);
   margin-top: 60px;
@@ -305,6 +309,8 @@ body {
   padding: 20px 0;
   font-size: 20px;
 }
+
+/* LISTER */
 
 .list {
   padding: 20px 0;
@@ -338,6 +344,13 @@ body {
   font-weight: bold;
 }
 
+.o-list li {
+  color: black;
+  list-style: decimal;
+  font-size: 17px;
+  list-style-position: inside;
+}
+
 .obs {
   font-size: 25px;
   text-align: center;
@@ -345,11 +358,14 @@ body {
   border-color: seagreen;
 }
 
-.o-list li {
-  color: black;
-  list-style: decimal;
-  font-size: 17px;
-  list-style-position: inside;
+@media screen and (max-width: 800px) {
+  figcaption {
+    padding: 0;
+  }
+
+  .list li {
+    text-align: justify;
+  }
 }
 
 /* LÆSMERE-OLE */
@@ -362,20 +378,57 @@ body {
   border-bottom-color: seagreen;
 }
 
-/* @media screen and (max-width: 1200px) {
-  
-} */
+/* GUIDEDE MEDITATIONER */
+
+.sound {
+  max-width: 1630px;
+  background-color: rgba(192, 197, 189, 0.904);
+}
+
+.sound-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.sound-cards h2 {
+  font-size: 30px;
+}
+
+.sound-cards img {
+  width: 100%;
+  height: 65%;
+  padding: 20px;
+}
+
+.sound h3 {
+  font-size: 25px;
+  border-bottom-style: ridge;
+  border-bottom-color: seagreen;
+}
+
+.sound-cards audio {
+  margin: 40px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .sound-cards {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sound-cards {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
 
 @media screen and (max-width: 800px) {
   .text {
-    padding: 10px;
-  }
-
-  figcaption {
-    padding: 0;
-  }
-
-  .list li {
-    text-align: justify;
+    padding: 20px;
   }
 }
