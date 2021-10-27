@@ -418,9 +418,11 @@ body {
   width: 100%;
   height: 65%;
   padding: 20px;
+  opacity: 80%;
 }
 
 .sound h3 {
+  text-align: center;
   font-size: 25px;
   border-bottom-style: ridge;
   border-bottom-color: seagreen;
@@ -428,6 +430,12 @@ body {
 
 .sound-cards audio {
   margin: 40px 0px;
+}
+
+.card3 {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1200px) {
