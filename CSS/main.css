@@ -80,6 +80,7 @@ body {
   background-image: url(../Images/outdoor-3681924_1920-1024x683.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #b4 {
@@ -87,6 +88,7 @@ body {
   background-image: url(../Images/skovfugle.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #b5 {
@@ -295,7 +297,7 @@ body {
 /* TEXT-SECTIONS */
 
 .text {
-  background-color: rgba(192, 197, 189, 0.904);
+  background-color: rgba(255, 255, 255, 0.842);
   margin-top: 60px;
   padding: 50px 150px;
 }
@@ -311,8 +313,22 @@ body {
   font-size: 20px;
 }
 
-@media screen and (max-width: 800px) {
+.text p a {
+  text-decoration: none;
+  color: #3a6b42;
+}
+
+.text p a:hover {
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
   .text {
+    text-align: center;
     padding: 20px;
   }
 }
@@ -320,19 +336,16 @@ body {
 /* LISTER */
 
 .list {
-  padding: 20px 0;
+  padding: 10px 0;
   list-style-position: inside;
 }
 
 .list li {
+  font-size: 17px;
   color: black;
   list-style-type: square;
   padding: 5px;
   list-style-position: inside;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .list-program {
@@ -351,28 +364,37 @@ body {
   font-weight: bold;
 }
 
+.obs h4 {
+  padding: 20px 0 10px 20px;
+}
+
 .o-list li {
   color: black;
   list-style: decimal;
   font-size: 17px;
   list-style-position: inside;
+  line-height: 30px;
 }
 
 .obs {
-  padding: 20px;
+  padding: 10px;
   font-size: 25px;
   text-align: center;
   border-style: ridge;
   border-color: seagreen;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   figcaption {
     padding: 0;
   }
 
   .list li {
     text-align: justify;
+  }
+
+  .o-list {
+    text-align: left;
   }
 }
 
@@ -461,10 +483,6 @@ body {
 }
 
 /* PRISER */
-
-.kr {
-  font-weight: bold;
-}
 
 h4 {
   font-size: 20px;
