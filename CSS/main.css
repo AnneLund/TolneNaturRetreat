@@ -311,6 +311,12 @@ body {
   font-size: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .text {
+    padding: 20px;
+  }
+}
+
 /* LISTER */
 
 .list {
@@ -451,12 +457,6 @@ body {
   .sound-cards {
     display: grid;
     grid-template-columns: auto;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .text {
-    padding: 20px;
   }
 }
 
