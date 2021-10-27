@@ -16,13 +16,6 @@ body {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-@media screen and (max-width: 1200px) {
-  body {
-    background-size: auto;
-    max-width: 1200px;
-  }
-}
-
 /* HEADER GRID */
 
 .grid {
@@ -475,4 +468,11 @@ body {
 
 h4 {
   font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-size: auto;
+    max-width: 1200px;
+  }
 }
