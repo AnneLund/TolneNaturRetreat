@@ -307,6 +307,7 @@ body {
 
 .list {
   padding: 20px 0;
+  list-style-position: inside;
 }
 
 .list li {
@@ -371,14 +372,6 @@ body {
 
   figcaption {
     padding: 0;
-  }
-
-  .skovfugle {
-    padding: 0;
-  }
-
-  .list {
-    list-style-position: inside;
   }
 
   .list li {
