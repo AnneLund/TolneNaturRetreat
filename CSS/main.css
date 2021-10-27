@@ -18,13 +18,8 @@ body {
 
 @media screen and (max-width: 1200px) {
   body {
-    background-image: url(../Images/Baggrundsbilledeskov.jpeg);
     background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-width: 1630px;
-    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    max-width: 1200px;
   }
 }
 
