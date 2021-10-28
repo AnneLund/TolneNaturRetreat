@@ -213,7 +213,7 @@ header {
 
 .cards img {
   width: 100%;
-  height: 65%;
+  height: 60%;
   padding: 20px;
 }
 
@@ -227,17 +227,13 @@ header {
 .cards button {
   border: none;
   outline: 0;
-  padding: 20px;
+  padding: 30px;
   color: white;
   background-color: #033501;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 20px;
-}
-
-.cards button:hover {
-  background-color: #ffffff;
 }
 
 .cards .b-a {
