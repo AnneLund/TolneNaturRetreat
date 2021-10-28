@@ -289,11 +289,6 @@ nav .navbar .links li:hover .pi-sub-menu {
 /* MEDIAQUERIES */
 
 @media (max-width: 1300px) {
-  header {
-    background-size: auto;
-    background-position: center;
-  }
-
   nav {
     top: 30px;
     left: 0;
