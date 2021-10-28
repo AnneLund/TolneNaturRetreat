@@ -11,21 +11,14 @@ body {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-.content-container {
+header {
   background-image: url(../Images/skov3.jpeg);
-  background-color: rgba(0, 0, 0, 0.507);
   background-blend-mode: color-dodge;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-/* @media screen and (max-width: 1000px) {
-  .content-container {
-    background-position: center;
-  }
-} */
 
 /* HEADER GRID */
 
@@ -45,7 +38,7 @@ body {
 
 .figure-content {
   padding: 50px;
-  background-color: rgba(28, 42, 12, 0.445);
+  background-color: whitesmoke;
 }
 
 .figure-content figure {
@@ -202,8 +195,8 @@ body {
   margin: 0 60px;
   text-align: center;
   font-family: arial;
-  background-color: #eaeaea;
-  box-shadow: #000 10px 10px 10px;
+  background-color: #ffffff;
+  box-shadow: #000 10px 15px 15px 10px;
 }
 
 .card2 .mail2 {
@@ -236,7 +229,7 @@ body {
   outline: 0;
   padding: 20px;
   color: white;
-  background-color: #00520e;
+  background-color: #033501;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -244,11 +237,11 @@ body {
 }
 
 .cards button:hover {
-  background-color: #3a6b42;
+  background-color: #ffffff;
 }
 
-.cards button a {
-  color: white;
+.cards .b-a {
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -308,8 +301,7 @@ body {
 /* TEXT-SECTIONS */
 
 .text {
-  background-color: rgba(255, 255, 255, 0.842);
-  margin-top: 60px;
+  background-color: whitesmoke;
   padding: 50px 150px;
 }
 
@@ -350,6 +342,7 @@ i {
   .text {
     text-align: center;
     padding: 20px;
+    margin: 0;
   }
 }
 
@@ -479,7 +472,8 @@ pre {
 
 .sound {
   max-width: 1630px;
-  background-color: rgba(201, 207, 198, 0.39);
+  background-color: rgba(255, 255, 255, 0.842);
+  /* background-color: rgba(201, 207, 198, 0.39); */
 }
 
 .sound p {
