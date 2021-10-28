@@ -137,7 +137,7 @@ header {
 
 /* ANIMATION */
 .skyer {
-  width: 2000px;
+  width: 3000px;
   height: 450px;
   position: absolute;
   animation-name: fog;
@@ -147,7 +147,7 @@ header {
 
 .skyer img {
   width: 2000px;
-  height: 390px;
+  height: 290px;
   position: absolute;
   top: 50px;
 }
@@ -229,7 +229,7 @@ nav .navbar .links li a {
   white-space: nowrap;
   color: white;
   text-align: justify;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
 }
 .links li:hover .aktiviteter-arrow,
@@ -288,7 +288,7 @@ nav .navbar .links li:hover .pi-sub-menu {
 
 /* MEDIAQUERIES */
 
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
   body {
     background-position: bottom;
   }
@@ -326,6 +326,16 @@ nav .navbar .links li:hover .pi-sub-menu {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease;
     z-index: 1000;
+  }
+
+  nav .navbar .links li a {
+    height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 500;
   }
 
   nav .navbar .links li a:hover {

@@ -12,19 +12,21 @@ body {
 }
 
 .content-container {
-  background-image: url(../Images/Baggrundsbilledeskov.jpeg);
+  background-image: url(../Images/skov3.jpeg);
+  background-color: rgba(0, 0, 0, 0.726);
+  background-blend-mode: darken;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1000px) {
   body {
     background-size: auto;
     max-width: 1200px;
   }
-}
+} */
 
 /* HEADER GRID */
 
@@ -164,20 +166,20 @@ body {
 @media screen and (max-width: 700px) {
   .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, minmax(150px, 1fr));
+    grid-template-rows: repeat(4, minmax(150px, 1fr));
     grid-template-areas:
       "b1"
-      "b2"
-      "b4"
       "b5"
       "b6"
-      "b7"
-      "b8"
-      "b9"
-      "b3";
+      "b8";
   }
 
-  #b10 {
+  #b10,
+  #b9,
+  #b7,
+  #b3,
+  #b2,
+  #b4 {
     display: none;
   }
 
