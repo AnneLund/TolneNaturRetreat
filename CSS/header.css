@@ -414,6 +414,12 @@ nav .navbar .links li:hover .pi-sub-menu {
     transform: rotate(90deg);
   }
 
+  #title-long {
+    font-size: 3.5vw;
+    top: 10px;
+    padding: 140px 0;
+  }
+
   .title-one {
     position: relative;
     top: 20px;
