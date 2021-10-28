@@ -290,7 +290,7 @@ nav .navbar .links li:hover .pi-sub-menu {
 
 @media (max-width: 1400px) {
   body {
-    background-position: 0%;
+    background-position: bottom;
   }
 
   nav {
@@ -348,8 +348,7 @@ nav .navbar .links li:hover .pi-sub-menu {
 
   .bx-x:before {
     position: absolute;
-    /* left: 180px;
-    top: 45px; */
+    /* left: 35px; */
   }
 
   nav .navbar .links {
