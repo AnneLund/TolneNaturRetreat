@@ -334,10 +334,6 @@ body {
   color: black;
 }
 
-h4 {
-  padding-top: 20px;
-}
-
 h5 {
   font-size: 25px;
   padding: 40px 0;
@@ -395,6 +391,16 @@ i {
   font-size: 17px;
   list-style-position: inside;
   line-height: 30px;
+}
+
+.o-list {
+  padding: 20px;
+}
+
+dd {
+  white-space: pre;
+  font-size: 17px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 .obs {
@@ -526,6 +532,6 @@ i {
 /* PRISER */
 
 h4 {
-  padding: 5px 0;
+  padding: 20px 0;
   font-size: 20px;
 }
