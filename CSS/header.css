@@ -261,7 +261,7 @@ nav .navbar .links li .sub-menu {
 }
 
 nav .navbar .links li a:hover {
-  color: black;
+  color: rgb(60, 121, 20);
   transition: 300ms ease-in-out;
 }
 
