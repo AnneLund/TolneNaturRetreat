@@ -11,15 +11,6 @@ body {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-header {
-  background-image: url(../Images/skov3.jpeg);
-  background-blend-mode: color-dodge;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 /* HEADER GRID */
 
 .grid {

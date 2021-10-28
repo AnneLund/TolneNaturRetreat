@@ -7,6 +7,12 @@
 /* HEADER */
 
 header {
+  background-image: url(../Images/skov3.jpeg);
+  background-blend-mode: color-dodge;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
 }
 
