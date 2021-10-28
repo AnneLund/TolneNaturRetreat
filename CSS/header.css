@@ -125,11 +125,17 @@ header {
   font-weight: lighter;
 }
 
+#title-long {
+  font-size: 3vw;
+  top: 10px;
+  padding: 140px 0;
+}
+
 #title {
   position: relative;
   top: 10px;
   padding: 140px 0;
-  font-size: 3vw;
+  font-size: 4vw;
   text-shadow: 4px 4px rgb(1, 68, 1);
   text-align: center;
   color: white;
@@ -419,7 +425,7 @@ nav .navbar .links li:hover .pi-sub-menu {
     position: relative;
     top: 10px;
     padding: 80px 0;
-    font-size: 3vw;
+    font-size: 6vw;
     text-shadow: 4px 4px rgb(1, 68, 1);
     text-align: center;
     color: white;
@@ -427,7 +433,7 @@ nav .navbar .links li:hover .pi-sub-menu {
   }
 
   #subtitle {
-    font-size: 4.5vw;
+    font-size: 5.5vw;
   }
 
   .skyer {
