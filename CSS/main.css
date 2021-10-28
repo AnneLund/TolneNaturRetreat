@@ -7,13 +7,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500&display=swap");
 
 body {
+  max-width: 1630px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.content-container {
   background-image: url(../Images/Baggrundsbilledeskov.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  max-width: 1630px;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
