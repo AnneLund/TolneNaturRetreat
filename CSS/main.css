@@ -396,10 +396,18 @@ i {
   padding: 20px;
 }
 
-dd {
-  white-space: pre;
+pre {
+  padding: 20px;
+  white-space: pre-wrap;
   font-size: 17px;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  pre {
+    white-space: pre-wrap;
+    text-align: center;
+  }
 }
 
 .obs {
