@@ -16,6 +16,13 @@ body {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
+@media screen and (max-width: 1200px) {
+  body {
+    background-size: auto;
+    max-width: 1200px;
+  }
+}
+
 /* HEADER GRID */
 
 .grid {
@@ -331,6 +338,10 @@ h5 {
   padding: 40px 0;
 }
 
+i {
+  font-size: 15px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -373,10 +384,6 @@ h5 {
   font-weight: bold;
 }
 
-.obs h4 {
-  padding: 20px 0 10px 20px;
-}
-
 .o-list li {
   color: black;
   list-style: decimal;
@@ -391,6 +398,22 @@ h5 {
   text-align: center;
   border-style: ridge;
   border-color: seagreen;
+  margin: 40px;
+}
+
+.infobox {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  border-style: outset;
+  border-width: 20px;
+  border-radius: 30px;
+  border-color: rgba(46, 139, 86, 0.294);
+  margin: 30px 60px;
+}
+
+.infobox h4 {
+  padding: 10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -404,6 +427,10 @@ h5 {
 
   .o-list {
     text-align: left;
+  }
+
+  .infobox {
+    margin: 0;
   }
 }
 
@@ -494,12 +521,6 @@ h5 {
 /* PRISER */
 
 h4 {
+  padding: 5px 0;
   font-size: 20px;
-}
-
-@media screen and (max-width: 1200px) {
-  body {
-    background-size: auto;
-    max-width: 1200px;
-  }
 }

@@ -7,7 +7,7 @@ menuOpenBtn.onclick = function () {
   navLinks.style.left = "0%";
 };
 menuCloseBtn.onclick = function () {
-  navLinks.style.left = "-150%";
+  navLinks.style.left = "-100%";
 };
 
 // sidebar submenu open close pi code
@@ -47,11 +47,11 @@ function showSlides() {
 
 // DROPDOWN-LIST //
 
-function myFunction() {
-  var x = document.getElementById("Demo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
+// function myFunction() {
+//   var x = document.getElementById("Demo");
+//   if (x.className.indexOf("w3-show") == -1) {
+//     x.className += " w3-show";
+//   } else {
+//     x.className = x.className.replace(" w3-show", "");
+//   }
+// }
