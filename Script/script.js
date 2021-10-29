@@ -21,6 +21,21 @@ piArrow.onclick = function () {
   navLinks.classList.toggle("show3");
 };
 
+$(function () {
+  $(document).click(function (event) {
+    $(".navbar-collapse").collapse("hide");
+  });
+});
+
+// document.addEventListener("DOMContentLoaded", nav);
+// function nav() {
+//   const links = document.querySelector(".bx bx-menu");
+//   const nav = document.querySelector(".main-nav");
+//   links.addEventListener("click", () => {
+//     nav.classlinks("show");
+//   });
+// }
+
 // SLIDESHOW //
 
 var slideIndex = 0;

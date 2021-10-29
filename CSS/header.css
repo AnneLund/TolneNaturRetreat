@@ -8,7 +8,7 @@
 
 header {
   background-image: url(../Images/skov3.jpeg);
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: rgba(0, 0, 0, 0.829);
 
   background-size: cover;
   background-position: center;
@@ -253,7 +253,6 @@ nav .navbar .links li a {
 }
 
 nav .navbar .links li .arrow {
-  /* background: red; */
   height: 100%;
   width: 22px;
   line-height: 70px;
@@ -331,7 +330,6 @@ nav .navbar .links li:hover .pi-sub-menu {
     display: block;
     max-width: 350px;
     max-height: 600px;
-    /* background-color: rgb(124, 189, 77); */
     background-color: rgb(28, 42, 12);
     line-height: 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
