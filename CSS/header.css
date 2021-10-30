@@ -351,6 +351,19 @@ header {
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   }
 
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgb(69, 100, 30);
+    /* background: rgb(39, 46, 42); */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: ease-in-out 300ms;
+  }
+
   .dropbtn {
     border-radius: 15px;
     border-color: rgba(25, 146, 41, 0);
