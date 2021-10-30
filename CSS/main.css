@@ -88,7 +88,7 @@ body {
 
 #b3 {
   grid-area: b3;
-  background-image: url(../Images/outdoor-3681924_1920-1024x683.jpg);
+  background-image: url(../Images/silence.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,7 +112,7 @@ body {
 
 #b6 {
   grid-area: b6;
-  background-image: url(../Images/travel-2604981_1920-1024x683.jpg);
+  background-image: url(../Images/totem.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
