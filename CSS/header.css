@@ -358,8 +358,8 @@ header {
 
 .title-one {
   position: relative;
-  top: 20px;
-  padding: 40px;
+  top: 40px;
+  padding: 80px 0;
   font-size: 4.5vw;
   text-shadow: none;
   text-align: center;
@@ -369,8 +369,8 @@ header {
 
 #title {
   position: relative;
-  top: 10px;
-  padding: 80px 0;
+  top: 20px;
+  padding: 100px 0;
   font-size: 5vw;
   text-shadow: 4px 4px rgb(1, 68, 1);
   text-align: center;
