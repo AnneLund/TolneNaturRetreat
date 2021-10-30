@@ -57,17 +57,20 @@
 /* Add a red background color to navbar links on hover */
 .dropdown:hover .dropbtn {
   background-color: black;
+  border-radius: 5px;
 }
 
 .dropbtn:hover {
   background-color: black;
+  border-radius: 5px;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: seagreen;
+  border-radius: 5px;
+  background: rgb(39, 46, 42);
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -332,7 +335,7 @@ header {
 
   .nav-links {
     position: fixed;
-    top: 10.6vh;
+    top: 10.4vh;
     right: -40px;
     height: 55vh;
     width: 70%;
@@ -346,7 +349,7 @@ header {
   }
 
   .dropbtn {
-    background: rgba(72, 129, 97, 0.979);
+    background: rgba(39, 46, 42, 0.842);
   }
 }
 
