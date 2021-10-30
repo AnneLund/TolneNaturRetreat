@@ -1,40 +1,34 @@
-// sidebar open close pi code
-let navLinks = document.querySelector(".nav-links");
-let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+// // sidebar open close pi code
+// let navLinks = document.querySelector(".nav-links");
+// let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+// let menuCloseBtn = document.querySelector(".nav-links .bx-x");
 
-menuOpenBtn.onclick = function () {
-  navLinks.style.left = "0%";
-};
-menuCloseBtn.onclick = function () {
-  navLinks.style.left = "-100%";
-};
+// menuOpenBtn.onclick = function () {
+//   navLinks.style.left = "0%";
+// };
+// menuCloseBtn.onclick = function () {
+//   navLinks.style.left = "-100%";
+// };
 
-// sidebar submenu open close pi code
-let aktiviteterArrow = document.querySelector(".aktiviteter-arrow");
-aktiviteterArrow.onclick = function () {
-  navLinks.classList.toggle("show1");
-};
+// // sidebar submenu open close pi code
+// let aktiviteterArrow = document.querySelector(".aktiviteter-arrow");
+// aktiviteterArrow.onclick = function () {
+//   navLinks.classList.toggle("show1");
+// };
 
-let piArrow = document.querySelector(".pi-arrow");
-piArrow.onclick = function () {
-  navLinks.classList.toggle("show3");
-};
+// let piArrow = document.querySelector(".pi-arrow");
+// piArrow.onclick = function () {
+//   navLinks.classList.toggle("show3");
+// };
 
-$(function () {
-  $(document).click(function (event) {
-    $(".navbar-collapse").collapse("hide");
+document.addEventListener("DOMContentLoaded", nav);
+function nav() {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".main-nav");
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("show");
   });
-});
-
-// document.addEventListener("DOMContentLoaded", nav);
-// function nav() {
-//   const links = document.querySelector(".bx bx-menu");
-//   const nav = document.querySelector(".main-nav");
-//   links.addEventListener("click", () => {
-//     nav.classlinks("show");
-//   });
-// }
+}
 
 // SLIDESHOW //
 
