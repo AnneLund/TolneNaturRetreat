@@ -44,12 +44,14 @@ body {
   overflow: hidden;
 }
 
-.h2-grid {
+.h2-grid,
+.h2-grid2 {
   font-size: 20px;
   color: black;
 }
 
-.h2-grid2 a {
+.h2-grid2 a,
+.h2-grid a {
   text-decoration: none;
   font-size: 20px;
   color: black;
@@ -80,7 +82,7 @@ body {
 
 #b2 {
   grid-area: b2;
-  background-image: url(../Images/forest2.jpeg);
+  background-image: url(../Images/fireplace-1598243_1920-1-1024x683.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -88,7 +90,7 @@ body {
 
 #b3 {
   grid-area: b3;
-  background-image: url(../Images/silence.jpeg);
+  background-image: url(../Images/outdoor-3681924_1920-1024x683.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,7 +114,7 @@ body {
 
 #b6 {
   grid-area: b6;
-  background-image: url(../Images/totem.jpg);
+  background-image: url(../Images/travel-2604981_1920-1024x683.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -148,13 +150,91 @@ body {
   background-position: center;
 }
 
+/* MOBILE-GRID */
+
 .figure-content2 {
   display: none;
 }
 
+#m1 {
+  grid-area: m1;
+  background-image: url(../Images/camping-691424_1920-1024x683.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#m2 {
+  grid-area: m2;
+  background-image: url(../Images/skov3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#m3 {
+  grid-area: m3;
+  background-image: url(../Images/silence.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#m4 {
+  grid-area: m4;
+  background-image: url(../Images/drawing.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#m5 {
+  grid-area: m5;
+  background-image: url(../Images/tree.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#m6 {
+  grid-area: m6;
+  background-image: url(../Images/chainsaw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+
+#m7 {
+  grid-area: m7;
+  background-image: url(../Images/tolneskov1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#m8 {
+  grid-area: m8;
+  background-image: url(../Images/Korn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#m9 {
+  grid-area: m9;
+  background-image: url(../Images/Bær-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#m10 {
+  grid-area: m10;
+  background-image: url(../Images/blomst-IMG_8639.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width: 768px) {
-  .grid,
-  .grid2 {
+  .grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, minmax(200px, 1fr));
     grid-template-areas:
@@ -168,28 +248,26 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .grid,
+  .figure-content {
+    display: none;
+  }
+
   .grid2 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, minmax(150px, 1fr));
     grid-template-areas:
-      "b1"
-      "b2"
-      "b3"
-      "b4"
-      "b5"
-      "b6"
-      "b8";
+      "m1"
+      "m2"
+      "m3"
+      "m4"
+      "m5"
+      "m6";
   }
 
-  #b10,
-  #b9,
-  #b7,
-  #b8 {
-    display: none;
-  }
-
-  .figure-content {
+  #m7,
+  #m8,
+  #m9,
+  #m10 {
     display: none;
   }
 
