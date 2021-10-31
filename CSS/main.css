@@ -57,12 +57,6 @@ body {
   color: black;
 }
 
-/* .h2-grid2 a:hover {
-  border-radius: 5px;
-  padding: 5px 80px;
-  background-color: seagreen;
-} */
-
 .figure-content figcaption,
 .figure-content2 figcaption {
   background-color: #eaeaea9b;
@@ -293,7 +287,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 400px;
   /* height: 350px; */
-  margin: 0 60px;
+  margin: 60px;
   text-align: center;
   font-family: arial;
   background-color: #ffffff;
@@ -379,7 +373,7 @@ body {
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* width: clamp(400px, 60vw, 600px); */
-    margin: 10px;
+    margin: 50px;
     text-align: center;
     font-family: arial;
     gap: 10px;
