@@ -36,7 +36,7 @@
 .nav-links .dropbtn-aktiviteter a {
   color: white;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 /* The dropdown container */
@@ -49,10 +49,10 @@
 .dropbtn,
 .dropbtn-aktiviteter {
   border-radius: 15px;
-  border-color: rgba(25, 146, 41, 0.226);
+  border-color: rgba(33, 34, 33, 0);
   outline: none;
   padding: 10px;
-  background-color: rgba(1, 68, 1, 0.671);
+  background-color: rgba(1, 68, 1, 0);
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
@@ -120,10 +120,12 @@
 
 header {
   background-image: url(../Images/skov3.jpeg);
-  background-color: rgba(0, 0, 0, 0.829);
+  background-blend-mode: color-dodge;
+  background-color: rgba(0, 0, 0, 0.486);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 80vh;
   overflow: hidden;
 }
 
@@ -242,18 +244,20 @@ header {
 }
 
 .nav-links {
-  width: 60%;
+  width: 70%;
 }
 
 .title-one {
   position: relative;
-  top: 40px;
-  padding: 100px;
-  font-size: 3vw;
-  text-shadow: 4px 4px rgb(1, 68, 1);
+  top: 50px;
   text-align: center;
   color: white;
-  font-weight: lighter;
+}
+
+.title-one h1 {
+  padding: 100px 0 20px 0;
+  font-size: 6vw;
+  text-shadow: 5px 4px rgb(1, 68, 1);
 }
 
 #title-long {
@@ -273,34 +277,35 @@ header {
   font-weight: bold;
 }
 
-#subtitle {
+.subtitle {
   transition-property: all;
   transition-duration: 3.9s;
   font-size: 3vw;
-  text-shadow: 3px 3px darkgreen;
+  font-weight: lighter;
+  text-shadow: 3px 3px rgb(1, 68, 1);
 }
 
 /* ANIMATION */
 .skyer {
   width: 3000px;
-  height: 450px;
+  height: 1000px;
   position: absolute;
+  top: 50%;
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 
 .skyer img {
-  width: 2000px;
-  height: 290px;
-  position: absolute;
-  top: 50px;
+  width: 3000px;
+  height: 1000px;
 }
 
 .skyer2 {
   width: 2000px;
-  height: 450px;
+  height: 1000px;
   position: absolute;
+  top: 0;
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
@@ -309,8 +314,6 @@ header {
 .skyer2 img {
   width: 2000px;
   height: 300px;
-  position: absolute;
-  top: 50px;
 }
 
 @keyframes fog {
@@ -330,6 +333,14 @@ header {
 /* MOBILMENU */
 
 @media screen and (max-width: 1300px) {
+  header {
+    height: 45vh;
+  }
+
+  .title-one h1 {
+    padding: 110px 0 0;
+  }
+
   .burger {
     display: block;
     position: absolute;
@@ -360,7 +371,6 @@ header {
   .dropdown-content {
     display: none;
     position: absolute;
-    border-radius: 5px;
     background-color: rgb(69, 100, 30);
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -381,59 +391,60 @@ header {
 }
 
 #title-long {
-  font-size: 3.5vw;
-  top: 10px;
-  padding: 140px 0;
+  font-size: 3vw;
+  top: 0px;
+  padding: 40px 0;
+}
+
+.title-one h1 {
+  font-size: 7vw;
 }
 
 .title-one {
   position: relative;
-  top: 40px;
-  padding: 80px 0;
+  top: 20px;
+  margin: 0;
+  padding: 0;
   font-size: 4.5vw;
-  text-shadow: none;
-  text-align: center;
-  color: white;
-  font-weight: lighter;
 }
 
 #title {
   position: relative;
   top: 20px;
-  padding: 100px 0;
+  padding: 0px;
   font-size: 5vw;
+  justify-content: center;
   text-shadow: 4px 4px rgb(1, 68, 1);
   text-align: center;
   color: white;
   font-weight: bold;
 }
 
-#subtitle {
-  font-size: 5vw;
+.subtitle {
+  font-size: 4.5vw;
 }
 
 .skyer {
-  width: 2000px;
-  height: 450px;
-  position: absolute;
+  width: 1500px;
+  height: 200px;
+
   animation-name: fog;
-  animation-duration: 60s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 
 .skyer img {
-  width: 2000px;
+  width: 1500px;
   height: 200px;
   position: absolute;
-  top: -30px;
+  top: 40px;
 }
 
 .skyer2 {
   width: 1500px;
   height: 200px;
-  position: absolute;
   animation-name: fog;
-  animation-duration: 60s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
 }
 
@@ -441,7 +452,7 @@ header {
   width: 1500px;
   height: 200px;
   position: absolute;
-  top: 60px;
+  top: 40px;
 }
 
 @media (max-width: 370px) {
