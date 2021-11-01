@@ -268,16 +268,16 @@ header {
   text-shadow: 5px 4px rgb(1, 68, 1);
 }
 
-#title-long {
+.title-long {
   font-size: 3vw;
-  top: 10px;
-  padding: 140px 0;
+  position: relative;
+  top: 60px;
 }
 
-#title {
+.title {
   position: relative;
-  top: 10px;
-  padding: 140px 0;
+  top: 60px;
+  padding: 140px;
   font-size: 4vw;
   text-shadow: 4px 4px rgb(1, 68, 1);
   text-align: center;
