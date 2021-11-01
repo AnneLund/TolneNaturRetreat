@@ -415,7 +415,7 @@ header {
   font-size: 4.5vw;
 }
 
-#title {
+.title {
   position: relative;
   top: 20px;
   padding: 0px;
