@@ -247,6 +247,14 @@ header {
   width: 70%;
 }
 
+/* .click {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+  left: 0;
+} */
+
 .title-one {
   position: relative;
   top: 50px;
@@ -256,7 +264,7 @@ header {
 
 .title-one h1 {
   padding: 100px 0 20px 0;
-  font-size: 6vw;
+  font-size: 8vw;
   text-shadow: 5px 4px rgb(1, 68, 1);
 }
 
@@ -290,7 +298,6 @@ header {
   width: 3000px;
   height: 1000px;
   position: absolute;
-  top: 50%;
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
