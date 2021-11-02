@@ -133,6 +133,7 @@ header {
 .h1-one {
   font-size: 8vw;
   text-align: center;
+  padding: 10px;
   position: relative;
   top: 120px;
   color: white;
@@ -143,6 +144,7 @@ header {
   transition-property: all;
   transition-duration: 3.9s;
   font-size: 3vw;
+  padding: 10px;
   font-weight: lighter;
   position: relative;
   top: 150px;
@@ -351,16 +353,15 @@ header {
 
   .h1-one {
     font-size: 9vw;
+    padding: 0;
   }
 
   .subtitle-one {
     font-size: 4vw;
     font-weight: lighter;
-    position: absolute;
-    left: 15%;
-    top: 180px;
     color: white;
     text-shadow: 3px 3px rgb(1, 68, 1);
+    padding: 0;
   }
 
   .burger {
@@ -427,9 +428,6 @@ header {
   font-weight: bold;
 }
 
-.title {
-}
-
 .subtitle {
   font-size: 4.5vw;
 }
@@ -437,7 +435,6 @@ header {
 .skyer {
   width: 1500px;
   height: 200px;
-
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
