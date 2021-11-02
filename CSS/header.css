@@ -303,16 +303,11 @@ header {
 /* ANIMATION */
 .skyer {
   width: 3000px;
-  height: 1000px;
+  height: 500px;
   position: absolute;
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
-}
-
-.skyer img {
-  width: 3000px;
-  height: 1000px;
 }
 
 .skyer2 {
@@ -323,11 +318,6 @@ header {
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
-}
-
-.skyer2 img {
-  width: 2000px;
-  height: 300px;
 }
 
 @keyframes fog {
@@ -432,34 +422,24 @@ header {
   font-size: 4.5vw;
 }
 
-.skyer {
+/* .skyer {
+  position: absolute;
+  top: 400px;
   width: 1500px;
-  height: 200px;
+  height: 100px;
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
-}
-
-.skyer img {
-  width: 1500px;
-  height: 200px;
-  position: absolute;
-  top: 40px;
-}
+} */
 
 .skyer2 {
+  position: absolute;
+  top: 400px;
   width: 1500px;
-  height: 200px;
+  height: 100px;
   animation-name: fog;
   animation-duration: 50s;
   animation-iteration-count: infinite;
-}
-
-.skyer2 img {
-  width: 1500px;
-  height: 200px;
-  position: absolute;
-  top: 40px;
 }
 
 @media (max-width: 370px) {
