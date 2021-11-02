@@ -372,7 +372,6 @@ body {
   .card1,
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /* width: clamp(400px, 60vw, 600px); */
     margin: 50px;
     text-align: center;
     font-family: arial;

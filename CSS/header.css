@@ -127,6 +127,49 @@ header {
   background-repeat: no-repeat;
   height: 80vh;
   overflow: hidden;
+  position: relative;
+}
+
+.h1-one {
+  font-size: 8vw;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  color: white;
+  text-shadow: 5px 4px rgb(1, 68, 1);
+}
+
+.subtitle-one {
+  transition-property: all;
+  transition-duration: 3.9s;
+  font-size: 3vw;
+  font-weight: lighter;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px rgb(1, 68, 1);
+}
+
+/* .title {
+  position: relative;
+  top: 150px;
+  font-size: 10vw;
+  text-shadow: 4px 4px rgb(1, 68, 1);
+  color: white;
+  font-weight: bold;
+} */
+
+.subtitle {
+  transition-property: all;
+  transition-duration: 3.9s;
+  font-size: 3vw;
+  font-weight: lighter;
+  position: relative;
+  top: 140px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px rgb(1, 68, 1);
 }
 
 .T-1 {
@@ -255,44 +298,6 @@ header {
   left: 0;
 } */
 
-.title-one {
-  position: relative;
-  top: 50px;
-  text-align: center;
-  color: white;
-}
-
-.title-one h1 {
-  padding: 100px 0 20px 0;
-  font-size: 8vw;
-  text-shadow: 5px 4px rgb(1, 68, 1);
-}
-
-.title-long {
-  font-size: 3vw;
-  position: relative;
-  top: 60px;
-}
-
-.title {
-  position: relative;
-  top: 60px;
-  padding: 140px;
-  font-size: 4vw;
-  text-shadow: 4px 4px rgb(1, 68, 1);
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-
-.subtitle {
-  transition-property: all;
-  transition-duration: 3.9s;
-  font-size: 3vw;
-  font-weight: lighter;
-  text-shadow: 3px 3px rgb(1, 68, 1);
-}
-
 /* ANIMATION */
 .skyer {
   width: 3000px;
@@ -344,8 +349,18 @@ header {
     height: 45vh;
   }
 
-  .title-one h1 {
-    padding: 110px 0 0;
+  .h1-one {
+    font-size: 9vw;
+  }
+
+  .subtitle-one {
+    font-size: 4vw;
+    font-weight: lighter;
+    position: absolute;
+    left: 15%;
+    top: 180px;
+    color: white;
+    text-shadow: 3px 3px rgb(1, 68, 1);
   }
 
   .burger {
@@ -397,25 +412,10 @@ header {
   }
 }
 
-#title-long {
+.title-long {
   font-size: 3vw;
   top: 0px;
   padding: 40px 0;
-}
-
-.title-one h1 {
-  font-size: 7vw;
-}
-
-.title-one {
-  position: relative;
-  top: 20px;
-  margin: 0;
-  padding: 0;
-  font-size: 4.5vw;
-}
-
-.title {
   position: relative;
   top: 20px;
   padding: 0px;
@@ -425,6 +425,9 @@ header {
   text-align: center;
   color: white;
   font-weight: bold;
+}
+
+.title {
 }
 
 .subtitle {
