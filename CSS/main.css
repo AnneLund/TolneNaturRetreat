@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500&display=swap");
 
 body {
-  max-width: 1630px;
+  position: relative;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
@@ -15,7 +15,6 @@ body {
 
 .grid,
 .grid2 {
-  max-width: 1630px;
   max-height: min-content;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -567,7 +566,6 @@ pre {
 }
 
 .sound {
-  max-width: 1630px;
   background-color: rgba(255, 255, 255, 0.842);
   /* background-color: rgba(201, 207, 198, 0.39); */
 }
