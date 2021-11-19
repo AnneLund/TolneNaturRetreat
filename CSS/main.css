@@ -4,11 +4,24 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;500&display=swap");
 
 body {
   position: relative;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-family: "Cormorant SC", serif;
+  color: white;
+}
+
+.content-container {
+  max-width: 1630px;
+  background-color: #5d755e;
+  background-image: url(../Images/skov3.jpeg);
+  background-blend-mode: color-dodge;
+  background-color: rgba(0, 0, 0, 0.904);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* HEADER GRID */
@@ -17,6 +30,7 @@ body {
 .grid2 {
   max-height: min-content;
   display: grid;
+
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(4, minmax(250px, 1fr));
   grid-template-areas:
@@ -30,7 +44,6 @@ body {
 .figure-content,
 .figure-content2 {
   padding: 50px;
-  background-color: whitesmoke;
 }
 
 .figure-content figure,
@@ -278,18 +291,18 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
-  padding: 30px;
+  padding: 0 30px;
 }
 
 .card1,
 .card2 {
+  color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 400px;
   /* height: 350px; */
-  margin: 60px;
+  margin: 0 60px;
   text-align: center;
-  font-family: arial;
-  background-color: #ffffff;
+  background-color: #289b4591;
   box-shadow: #000 10px 15px 15px 10px;
 }
 
@@ -396,17 +409,20 @@ body {
 /* TEXT-SECTIONS */
 
 .text {
-  background-color: whitesmoke;
-  padding: 50px 150px;
+  /* background-color: whitesmoke; */
+  padding: 0px 150px;
+  padding-bottom: 30px;
 }
 
 .text h3 {
+  color: white;
   font-size: 25px;
   border-bottom-style: ridge;
-  border-bottom-color: seagreen;
+  border-bottom-color: rgba(207, 149, 23, 0.295);
 }
 
 .text p {
+  color: white;
   padding: 10px 0;
   font-size: 20px;
 }
@@ -421,6 +437,7 @@ body {
 }
 
 h5 {
+  color: white;
   font-size: 25px;
   padding: 40px 0;
 }
@@ -450,7 +467,7 @@ i {
 
 .list li {
   font-size: 17px;
-  color: black;
+  color: rgb(255, 255, 255);
   list-style-type: square;
   padding: 5px;
   list-style-position: inside;
@@ -462,7 +479,7 @@ i {
 }
 
 .list-program li {
-  color: black;
+  color: rgb(255, 255, 255);
   list-style-type: square;
   font-size: 20px;
 }
@@ -473,7 +490,7 @@ i {
 }
 
 .o-list li {
-  color: black;
+  color: rgb(255, 255, 255);
   list-style: decimal;
   font-size: 17px;
   list-style-position: inside;
@@ -481,6 +498,7 @@ i {
 }
 
 .o-list {
+  color: white;
   padding: 20px;
 }
 
@@ -553,7 +571,7 @@ pre {
 /* GUIDEDE MEDITATIONER */
 
 .small-text {
-  background-color: rgba(192, 197, 189, 0.904);
+  /* background-color: rgb(255, 255, 255); */
   padding: 20px;
   font-size: 20px;
   text-align: center;
@@ -566,7 +584,7 @@ pre {
 }
 
 .sound {
-  background-color: rgba(255, 255, 255, 0.842);
+  color: rgba(255, 157, 0, 0.733);
   /* background-color: rgba(201, 207, 198, 0.39); */
 }
 
@@ -607,7 +625,7 @@ pre {
 .card3 {
   width: 300px;
   height: 400px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(109, 196, 75, 0.541);
 }
 
 @media screen and (max-width: 1200px) {
