@@ -1,25 +1,21 @@
 body {
   font: 400 1em/1.5 "Neuton";
-  background: #090d00;
+  background: #000000;
   color: rgba(255, 255, 255, 0.25);
   text-align: center;
   margin: 0;
 }
 
-p {
+h1 {
   text-transform: uppercase;
+  font-size: 1vw;
   letter-spacing: 0.5em;
   display: inline-block;
-  border: 4px double rgba(255, 255, 255, 0.25);
+  border: 4px double rgba(240, 240, 240, 0.25);
   border-width: 4px 0;
   padding: 1.5em 0em;
-  position: absolute;
-  top: 18%;
-  left: 50%;
-  width: 40em;
-  margin: 0 0 0 -20em;
 }
-p span {
+h1 span {
   font: 700 4em/1 "Oswald", sans-serif;
   letter-spacing: 0;
   padding: 0.25em 0 0.325em;
@@ -27,11 +23,11 @@ p span {
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
   /* Clip Background Image */
-  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  background: url(./Images/fire-3.jpeg) repeat-y;
   -webkit-background-clip: text;
   background-clip: text;
   /* Animate Background Image */
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(255, 255, 0, 0.192);
   -webkit-animation: aitf 80s linear infinite;
           animation: aitf 80s linear infinite;
   /* Activate hardware acceleration for smoother animations */
