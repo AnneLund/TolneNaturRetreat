@@ -14,7 +14,8 @@ body {
 }
 
 .content-container {
-  max-width: 1630px;
+  /* max-width: 1630px;
+  margin: auto; */
   background-color: #5d755e;
   background-image: url(../Images/skov3.jpeg);
   background-blend-mode: color-dodge;

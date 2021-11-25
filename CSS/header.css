@@ -7,8 +7,8 @@
 /* HEADER */
 
 header {
-  max-width: 1920px;
-  margin: auto;
+  /* max-width: 1920px;
+  margin: auto; */
   text-align: center;
   /* background-image: url(../Images/skov3.jpeg);
   background-blend-mode: color-dodge;
@@ -73,7 +73,7 @@ header {
 .nav-links .dropbtn-aktiviteter a {
   color: rgba(255, 187, 0, 0.795);
   text-decoration: none;
-  font-size: 19px;
+  font-size: 24px;
 }
 
 /* The dropdown container */
